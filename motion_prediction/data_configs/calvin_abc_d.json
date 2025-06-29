@@ -1,0 +1,16 @@
+{
+    "train": [
+        {
+            "name": "jxie/calvin_1_chained-bootstapir_checkpoint_v2",
+            "split": "train",
+            "storage_location": "remote"
+        }
+    ],
+    "test": [
+        {
+            "name": "jxie/calvin-100_samples-100_points-50_movement_min-mwt0.5",
+            "storage_location": "remote",
+            "split": "test"
+        }
+    ]
+}

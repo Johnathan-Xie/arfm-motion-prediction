@@ -1,0 +1,10 @@
+*.zip
+weights
+calvin_lmdb
+save
+saved_models
+training_logs
+evaluation_logs
+checkpoints/*
+datasets/*
+calvin

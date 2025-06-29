@@ -1,0 +1,8 @@
+runs/
+saved_runs/
+slurm_logs/
+deprecated/
+visualizations/
+wandb/
+__pycache__/
+evaluation_results/

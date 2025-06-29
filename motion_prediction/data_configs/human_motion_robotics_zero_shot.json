@@ -1,0 +1,53 @@
+{
+    "train": [
+        {
+            "name": "jxie/motion_x_video-bootstapir_checkpoint_v2-crop_still_edges",
+            "split": "train",
+            "storage_location": "remote",
+            "interleave_ratio": 1.0
+        },
+        {
+            "name": "jxie/motion_x_rendered-bootstapir_checkpoint_v2",
+            "split": "train",
+            "storage_location": "remote",
+            "interleave_ratio": 1.0
+        },
+        {
+            "name": "jxie/kinetics400-bootstapir_checkpoint_v2-crop_still_edges",
+            "split": "train",
+            "storage_location": "remote",
+            "interleave_ratio": 1.0
+        },
+        {
+            "name": "jxie/language_table-bootstapir_checkpoint_v2",
+            "split": "train",
+            "storage_location": "remote",
+            "interleave_ratio": 1.0
+        },
+        {
+            "name": "jxie/bridge_data_v2-bootstapir_checkpoint_v2",
+            "split": "train",
+            "storage_location": "remote",
+            "interleave_ratio": 1.0
+        },
+        {
+            "name": "jxie/maniskill-bootstapir_checkpoint_v2",
+            "split": "train",
+            "storage_location": "remote",
+            "interleave_ratio": 1.0
+        },
+        {
+            "name": "jxie/mimicgen-bootstapir_checkpoint_v2",
+            "split": "train",
+            "storage_location": "remote",
+            "interleave_ratio": 0.25
+        }
+    ],
+    "test": [
+        {
+            "name": "jxie/calvin-100_samples-100_points-50_movement_min-mwt0.5",
+            "storage_location": "remote",
+            "split": "test"
+        }
+    ]
+}

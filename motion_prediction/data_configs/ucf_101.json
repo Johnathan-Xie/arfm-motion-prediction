@@ -1,0 +1,16 @@
+{
+    "train": [
+        {
+            "name": "jxie/UCF_101-bootstapir_checkpoint_v2-crop_still_edges",
+            "split": "train",
+            "storage_location": "remote"
+        }
+    ],
+    "test": [
+        {
+            "name": "jxie/UCF_101-100_samples-100_points-50_movement_min-mwt0.5",
+            "split": "test",
+            "storage_location": "remote"
+        }
+    ]
+}
